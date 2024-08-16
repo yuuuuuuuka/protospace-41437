@@ -72,3 +72,9 @@ group :test do
 end
 
 gem 'devise'
+gem 'mini_magick'
+gem 'image_processing', '~> 1.2'
+
+
+#Active Storageを導入
+#76行の'~>1.2はカリキュラムに書いてあったから画像調節で問題あれば消した方が良いかも'
